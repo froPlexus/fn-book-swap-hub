@@ -3,14 +3,17 @@ import { NgModule } from "@angular/core";
 import { LoggerComponent } from "./components/logger/logger.component";
 
 import { MatCardModule } from '@angular/material/card';
+import { RegisterComponent } from "./components/register/register.component";
 
 
 @NgModule({
   declarations: [
-    LoggerComponent
+    LoggerComponent,
+    RegisterComponent,
   ],
   exports: [
-    LoggerComponent
+    LoggerComponent,
+    RegisterComponent,
   ],
   imports:[
     CommonModule,
