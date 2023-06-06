@@ -2,6 +2,8 @@ import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { LoggerComponent } from "./components/logger/logger.component";
 
+import { MatCardModule } from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -12,6 +14,7 @@ import { LoggerComponent } from "./components/logger/logger.component";
   ],
   imports:[
     CommonModule,
+    MatCardModule
   ]
 })
 
